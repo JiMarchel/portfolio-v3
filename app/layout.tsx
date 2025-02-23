@@ -31,7 +31,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${neue.className}  antialiased bg-[#fafafa]`}>
+      <body className={`${neue.className}  antialiased bg-white`}>
         {children}
       </body>
     </html>

@@ -1,5 +1,6 @@
 import type { Config } from "tailwindcss";
 
+/** @type {import('tailwindcss').Config} */
 export default {
   darkMode: ["class"],
   content: [
@@ -11,6 +12,7 @@ export default {
     extend: {
       colors: {
         black: "#2a2722",
+        white: "#fafafa",
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
         card: {
