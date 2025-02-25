@@ -45,7 +45,7 @@ export const Heading = () => {
         </div>
       </div>
 
-      <div className="col-span-3 bg-black text-white mt-8 uppercase ">
+      <div className="col-span-3 bg-black text-white mt-8 uppercase">
         <ScrollVelocity
           texts={["Enter the Realm -", "Scroll to Begin -"]}
           velocity={40}
